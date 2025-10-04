@@ -2,8 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "logoas.png", "use": "@vercel/static" },
-    { "src": "ACGHeadShot.jpg", "use": "@vercel/static" }
+    { "src": "assets/logo.png", "use": "@vercel/static" },
+    { "src": "assets/ACGHeadShot.jpg", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
