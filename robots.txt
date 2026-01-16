@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 Allow: /assets/
 
+Sitemap: https://atlasshared.com/sitemap.xml
